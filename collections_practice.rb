@@ -31,4 +31,5 @@ end
 def find_a(arr)
   arr.select do |word|
     word.start_with?("a")
+  end 
 end 
