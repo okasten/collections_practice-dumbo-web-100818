@@ -24,6 +24,6 @@ end
 
 def kesha_maker(arr)
   arr.map do |word|
-    word[2].gsub("$")
+    word.gsub(word[2], "$")
   end 
 end 
