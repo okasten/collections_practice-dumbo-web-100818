@@ -33,3 +33,10 @@ def find_a(arr)
     word.start_with?("a")
   end 
 end 
+
+def sum_array(arr)
+  sum = 0 
+  arr.each do |num|
+    sum += num
+  end 
+end 
